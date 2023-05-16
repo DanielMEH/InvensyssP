@@ -41,7 +41,6 @@
     "react-content-loader": "^6.2.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
-    " ": "^3.2.0",
     "react-multi-date-picker": "^3.3.4",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
@@ -67,11 +66,6 @@
     ]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
