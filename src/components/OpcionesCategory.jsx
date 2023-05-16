@@ -1,10 +1,8 @@
 import React from "react";
-import eye from "../assets/icons/eye.svg";
 import Swal from "sweetalert2";
 import "../assets/css/styleSlider.css";
 import { useContextCategory } from "../hooks/context/ContextCategory";
 
-import { useNavigate } from "react-router-dom";
 function OpcionesCategory(e) {
   const { deleteCategorys, updateCategorys } = useContextCategory();
   const deleteId = async () => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { getSubProducts, TodoFunctions } from "../apis/ApiData";
+import { useParams } from "react-router-dom";
+import { getSubProducts} from "../apis/ApiData";
 import { useInventario } from "../hooks/context/ContextInventario";
 import { ToastContainer, toast } from "react-toastify";
 import "../assets/css/fuente.css";
@@ -8,7 +8,7 @@ import { useContextSubProducts } from "../hooks/context/ContextSubProducts";
 export const TranslateProduct = () => {
   const [products, setProducts] = React.useState([]);
   const [idB, setIdB] = useState([]);
-  const { inventario, setInventario, GetInventario } = useInventario();
+  const { inventario, GetInventario } = useInventario();
   const { id } = useParams();
 
   const { getSubProductsContent, updateSubProductsContent, subProductsData } =

@@ -8,7 +8,6 @@ export const ProductoDasboard = () => {
   const [products, setProducts] = useState([]);
   const [spiner, setSpiner] = useState(true);
   const [provider, setProvider] = useState([]);
-  const [infoProducts, setInfoProducts] = useState([]);
   const [users, setUsers] = useState([]);
 
   useEffect(() => {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Chart from "react-apexcharts";
 import { getBusiness, getUsersAdmin } from "../../apis/ApiData";
-import { ReactSortable, MultiDrag, Swap } from "react-sortablejs";
-import sinDate from "../../assets/img/sinDate.jpg";
+import { ReactSortable} from "react-sortablejs";
+
 import "animate.css";
 import "../../assets/css/sorteable.css";
 import moment from "moment-with-locales-es6";
@@ -13,7 +13,7 @@ export const CategoryDasboard = () => {
   const [products, setProducts] = useState([]);
   const [spiner, setSpiner] = useState(true);
   const [provider, setProvider] = useState([]);
-  const [infoProducts, setInfoProducts] = useState([]);
+
   const [users, setUsers] = useState([]);
 
   useEffect(() => {

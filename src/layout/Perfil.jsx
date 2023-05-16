@@ -5,7 +5,7 @@ import { CambioFotoPerfilAdmin } from "../components/CambioFotoPerfilAdmin";
 import { useGetUsers } from "../hooks/context/GetUsersContext";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const Perfil = () => {
   const { getAdminDataAll, adminGetData, updateDataAdmin } = useGetUsers();

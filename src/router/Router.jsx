@@ -26,7 +26,6 @@ import { Somos } from "../pages/Somos";
 import { Contactanos } from "../pages/Contactanos";
 import { ModalModule } from "../components/ModalModule";
 import axios from "axios";
-import { PlanificCalendar } from "../layout/PlanificCalendar";
 import { AyudaAdmin } from "../layout/AyudaAdmin";
 import { EditarProduct } from "../components/FormProduct/EditarProduct";
 import { Ventas } from "../layout/Ventas";
@@ -46,7 +45,6 @@ import { ProviderNotifyc } from "../components/NotificationsHeader/ProviderNotif
 import { PedidosNotify } from "../components/NotificationsHeader/PedidosNotify";
 import { VentasNotify } from "../components/NotificationsHeader/VentasNotify";
 import { ConfigInventory } from "../container/ConfigInventory";
-import inventoryImg from "../assets/img/inventorys.jpg";
 import { TranslateProduct } from "../container/TranslateProduct";
 export const Router = () => {
   const [usersP, setUsersP] = useState([]);

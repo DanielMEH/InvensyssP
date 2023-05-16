@@ -8,7 +8,7 @@ export const HomeDaboard = () => {
   const [products, setProducts] = useState([]);
 
   const [provider, setProvider] = useState([]);
-  const [infoProducts, setInfoProducts] = useState([]);
+ 
   const [users, setUsers] = useState([]);
   useEffect(() => {
     getUsersAdmin().then((res) => {

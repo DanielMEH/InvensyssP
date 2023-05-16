@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Chart from "react-apexcharts";
-import { Link, Outlet, useNavigate, Navigate } from "react-router-dom";
+import { Link, Outlet, Navigate } from "react-router-dom";
 import { useContextModules } from "../hooks/context/ContextModules";
 import { useGetUsers } from "../hooks/context/GetUsersContext";
 export const InicioChart = () => {

@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { DatePicker } from "antd";
+
 import { ToastContainer, toast } from "react-toastify";
 
-import moment from "moment-with-locales-es6";
 import { useContextCategory } from "../../hooks/context/ContextCategory";
 import { useContextProduct } from "../../hooks/context/ContextProduxt";
-const { RangePicker } = DatePicker;
+
 export const FormProduct = () => {
   const { postProducts } = useContextProduct();
   const { dataGategorias, getDataCategorias } = useContextCategory();
