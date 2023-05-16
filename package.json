@@ -1,13 +1,13 @@
 {
-  "name": "frontendstored",
+  "name": "clienteinvensys",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^18.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^13.5.0",
     "query-string": "^7.1.1",
+    "react": "^18.2.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
@@ -16,7 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -25,6 +26,11 @@
     ]
   },
   "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -32,12 +38,8 @@
     ]
   },
   "devDependencies": {
-    "@types/sortablejs": "^1.15.1",
-    "autoprefixer": "^10.4.13",
-    "axios": "^1.2.0",
-    "postcss": "^8.4.18",
-    "react-loading-skeleton": "^3.2.0",
-    "tailwind-scrollbar": "^2.1.0",
-    "tailwindcss": "^3.2.1"
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24"
   }
 }
